@@ -73,3 +73,16 @@ strong{
 .image{
   width:100%;
 }
+
+
+
+
+
+.ct{
+  list-style: none none;
+}
+
+.ct .ctf-img {
+  height: 120px;
+ width: auto;
+}
