@@ -27,7 +27,7 @@
 
   .false-img{
     padding: 3px;
-    font-size: 20px;
+    font-size: 40px;
     padding-left: 0;
     vertical-align: middle;
     margin-left: 0px;
@@ -42,30 +42,6 @@
     display: block;
     z-index: 10;
     height: 234px;
-  }
-
-
-  #projects-container{
-    max-width: 700px;
-    width: 100%;
-    display: flex;
-    flex-wrap:wrap;
-  }
-
-
-  .section-project{
-    display: block;
-  }
-
-
-  .projects{
-    z-index: -100;
-    width: 100%;
-    border: 1px solid #ddd;
-    box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
-    border-radius: 4px;
-    padding: 10px;
-    margin: 0px 20px 20px 0px;
   }
 
 
@@ -143,27 +119,6 @@
   }
 
 
-  #projects-container{
-    max-width: 700px;
-    width: 100%;
-    display: flex;
-  }
-
-
-  .section-project{
-    display: block;
-  }
-
-
-  .projects{
-    z-index: -100;
-    width: calc((100% - 20px)/3);
-    border: 1px solid #ddd;
-    box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
-    border-radius: 4px;
-    padding: 10px;
-    margin: 0px 20px 20px 0px;
-  }
 
 
 }
@@ -189,36 +144,22 @@
     top: 0px;
 
     }
+/* new improve header */
+    header img{
+      padding-left: 0;
+      vertical-align: middle;
+      margin-left: 0px;
+      margin-right: 20px;
+    }
 
-
+/* new improve resume width */
     #resume{
-    width: 79%;
+    width: 76%;
     float: right;
     padding-bottom: 50px;
-    margin-top: 260px;
+    margin-top: 200px;
     }
 
 
-    #projects-container{
-      min-width: 600px;
-      width: 60%;
-      display: flex;
-    }
-
-
-    .section-project{
-      display: block;
-    }
-
-
-    .projects{
-      z-index: -100;
-      width: calc((100% - 20px)/3);
-      border: 1px solid #ddd;
-      box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
-      border-radius: 4px;
-      padding: 10px;
-      margin: 0px 20px 20px 0px;
-    }
 
 }
