@@ -4,13 +4,17 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+    padding-top: 10px;
   }
 
 
   header h1{
     text-align: center;
     font-size: 35px;
+    padding-top: 200px;
+    width: 100%;
   }
+
 
 
   #info{
@@ -41,7 +45,7 @@
     top:0px;
     display: block;
     z-index: 10;
-    height: 234px;
+    height: 300px;
   }
 
 
@@ -57,7 +61,7 @@
   .header-image-container img{
     padding-left: 0;
     vertical-align: middle;
-    margin-left: 0px;
+    margin-left: 30px;
     margin-right: 20px;
   }
 
@@ -68,17 +72,21 @@
     display: block;
   }
 
-
+  .spacer{
+    top: -25px;
+    height: 40%;
+  }
   header h1{
-    position: fixed;
+    position: relative;
     left: 70px;
-    top: 0px;
+    top: 59px;
     width: 100%;
   }
 
 
   .header-image-container{
     display: inline;
+    float: left;
 
   }
 
@@ -124,42 +132,115 @@
 }
 
 /* full screen broswer size */
-@media screen and (min-width: 971px){
-  #info {
-      width: 30%;
-      position: fixed;
-      top: 300px;
-      left: 90px;
-    }
+@media only screen and (min-width: 970px) and (max-width: 1199px) {
+  #info{
+    display: none;
+  }
 
 
-    .header-image-container{
-    display: inline;
-    }
+  .header-image-container img{
+    padding-left: 0;
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
 
 
-    header h1{
+  h1{
+    font-size: 60px;
+    line-height: 110%;
+    display: block;
+  }
+
+  .spacer{
+    top: -25px;
+    height: 40%;
+    
+  }
+  header h1{
     position: relative;
     left: 70px;
-    top: 0px;
+    top: 59px;
+    width: 100%;
+  }
 
-    }
-/* new improve header */
-    header img{
-      padding-left: 0;
-      vertical-align: middle;
-      margin-left: 0px;
-      margin-right: 20px;
-    }
 
-/* new improve resume width */
-    #resume{
-    width: 76%;
-    float: right;
-    padding-bottom: 50px;
-    margin-top: 200px;
-    }
+  .header-image-container{
+    display: inline;
+    float: left;
+
+  }
+
+
+  header img{
+    padding-left: 0;
+    vertical-align: middle;
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+
+
+  .header-image-container{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  h1 img{
+    display: inline-block;
+    height: 170px;
+    width: 170px;
+  }
+
+
+  #resume {
+    padding-top: 220px;
+    margin-top: 10px;
+    margin-left: 5%;
+    display: inline-block;
+    left: 0px;
+    right: 0px;
+    width: auto;
+    float: none;
+    padding-bottom: 0;
+    margin-top: 0;
+  }
+
 
 
 
 }
+
+/* large desktop */
+@media only screen and (min-width: 1200px) {
+  #info {
+    width: 30%;
+    position: fixed;
+    top: 300px;
+    left: 90px;
+  }
+  #resume {
+    overflow-wrap: break-word;
+    text-overflow: ellipsis; 
+    width: 76%;
+    float: right;
+    padding-bottom: 50px;
+    margin-top: 200px;
+  }
+  
+  header h1 {
+    position: relative;
+    left: 60px;
+   
+  }
+  .header-image-container img {
+    float: left;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    margin-top: 54px;
+    margin-left: 54px;
+}
+
+  }
