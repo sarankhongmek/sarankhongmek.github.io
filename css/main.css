@@ -114,5 +114,16 @@ strong{
  width: auto;
 }
 
+p {
+  max-width: 579px;
+  padding: 12px;
+}
+
+.ow p{
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
 
 
