@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .navbar-icon {
+        @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-2 shadow-lg flex-shrink-0 rounded-lg 
+        from-gray-100 to-gray-300 bg-gradient-45;
+    }
+
+    .navbar-div {
+        @apply  bg-red-500  flex bottom-0;
+    }
+}
+
+

@@ -1,0 +1,14 @@
+{
+    "presets": [
+        [
+            "@babel/preset-react",
+            {
+                "runtime": "automatic"
+            }
+        ]
+    ],
+    
+    "browserslist": [
+        "last 2 Chrome versions"
+    ]
+}
